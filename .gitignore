@@ -2,10 +2,7 @@
 *.pyc
 .ipynb_checkpoints/
 
-# outputs / logs / predictions
-out/
-pred_out/
-runs/
+# outputs / logs /0 predictions
 logs/
 
 # model weights & big files
