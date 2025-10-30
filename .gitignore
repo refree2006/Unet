@@ -1,0 +1,22 @@
+﻿__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# outputs / logs / predictions
+out/
+pred_out/
+runs/
+logs/
+
+# model weights & big files
+*.pt
+*.pth
+*.onnx
+*.bin
+checkpoints/
+models/
+
+# env
+.venv/
+venv/
+env/
