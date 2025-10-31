@@ -1,11 +1,25 @@
-﻿__pycache__/
+﻿# ---- Python basics
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.cache
 .ipynb_checkpoints/
 
-# outputs / logs /0 predictions
+# ---- Virtual env
+.venv/
+venv/
+env/
+
+# ---- Project outputs
+out/
+pred_out/
+runs/
 logs/
 
-# model weights & big files
+# ---- Models & big binaries (do not track)
 *.pt
 *.pth
 *.onnx
@@ -13,7 +27,13 @@ logs/
 checkpoints/
 models/
 
-# env
-.venv/
-venv/
-env/
+# ---- OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Misc
+*.zip
+*.tar
+*.tar.gz
