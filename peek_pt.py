@@ -1,7 +1,7 @@
 import torch
 from collections import OrderedDict
 
-path = r"E:\UNET\out\unet_best.pt"
+path = r"\UNET\out\unet_best.pt"
 
 # 尝试 TorchScript
 try:
